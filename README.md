@@ -2,7 +2,7 @@
 
 ## Introduction
 Traditional data warehouse archive strategy involves moving the old data into offsite tapes.  This does not quite fit the size for modern analytics applications since the data is unavailable for business analytics in real time need. 
-Mature Hadoop clusters needs a modern data archival strategy to keep the storage expense at  check when data volume increase exponentially. 
+Mature Hadoop clusters needs a modern data archival strategy to keep the storage expense at check when data volume increase exponentially. 
 The term hybrid here designates an archival solution which is always available as well as completely transparent to the application layer 
 This document will cover:  
 1.	Use case 
@@ -26,7 +26,6 @@ Amazon claims S3 storage delivers 99.999999999% durability. In case of data loss
 3. Access hot and cold (archived) data simultaneously from the application. 
 4. Solution should be transparent to the application layer. In other words absolutely no change should be required from the application layer after the hybrid archival strategy is implemented. 
 5. Performance should be acceptable. 
-Below are the possible solutions for the use cases.  
 
 
 ## Storage cost analysis 
